@@ -1,0 +1,41 @@
+<form action="#">
+  Name*:
+  <input type="text"name="Firstname"/>
+  <br/>
+  Lastname:
+  <input type="text"name="Lastname"/>
+  <br/>
+  Password:
+  <input type="password"name="pwd"/>
+  <br/>
+  <input type="radio" name="sex" value="male"/>Man
+  <input type="radio" name="sex" value="female"/>Woman
+  <br/>
+  <input type="checkbox" name="vechicle" value="bike"/> I have a bike
+  <br/>
+  <input type="checkbox" name="vechicle" value="car"/> I have a car
+  <br/>
+  Car from
+  <select>
+    <optgroup label="Car from">
+      <option value="China">China</option>
+      <option value="Ukraine">Ukraine</option>
+      <option value="Europe">Europe</option>
+    </optgroup>
+ </select>
+  <br/>
+  Type of car
+    <select>
+    <optgroup label="Type of car">
+      <option value="Sedan">Sedan</option>
+      <option value="Universal">Universal</option>
+      <option value="Jeep">Jeep</option>
+    </optgroup>
+ </select>
+ <br/>
+  Comments
+  <textarea name="Comment" id="123" cols="30" rows="10"></textarea> 
+  <br/> <br/>
+  <input type="submit" value="Send"/>
+  <input type="reset" value="Reset"/>
+</form>
